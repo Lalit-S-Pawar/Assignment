@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav{
+    /* background-color: black; */
+    box-shadow: 2px 2px 2px rgb(205, 204, 204);
+    
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+    gap: 15px;
+    list-style: none;
+}
+.nav button{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+/* Title section */
+
+.title-container{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);;
+    padding: 50px;
+}
+.title-container .button{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.classes{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer{
+    background-color: rgb(206, 203, 203);
+    height: 5rem;
+    padding: 2rem 0px 2rem 100px;
+}
+.footer a{
+    float: right;
+    margin: 0px 5rem 0px 0px;
+}
+.card{
+    box-shadow: 2px 2px 2px rgb(205, 204, 204);
+}
+.card .btn{
+    width: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+}
